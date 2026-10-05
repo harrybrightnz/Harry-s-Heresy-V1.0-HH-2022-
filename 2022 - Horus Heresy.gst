@@ -9030,8 +9030,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
 • A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
 • Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
 • A model with the Paragon Unit Sub-type may make reactions.
-• A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.
-</description>
+• A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.</description>
         </rule>
       </rules>
     </selectionEntry>

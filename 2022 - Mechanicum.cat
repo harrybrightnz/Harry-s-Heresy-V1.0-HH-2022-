@@ -1123,8 +1123,7 @@
           <characteristics>
             <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Monstrous, Antigrav, Cybertheurgist, Character)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
-            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">
-</characteristic>
+            <characteristic name="WS" typeId="cc42-7ed5-7092-5c84"/>
             <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
             <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
             <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">6</characteristic>
