@@ -14782,9 +14782,6 @@ An army whose Warlord has this Trait counts any Allied Detachment that has any v
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
-          <modifiers>
-            <modifier field="hidden" type="set" value="true"/>
-          </modifiers>
           <rules>
             <rule name="Recon Company" id="fa96-5f74-c1e8-e38d" hidden="false" page="97" publicationId="a716-c1c4-7b26-8424">
               <description>Effects
@@ -14802,6 +14799,17 @@ Limitations
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
+          <modifiers>
+            <modifier field="hidden" type="set" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="7b69-bf2f-4547-e83b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules>
             <rule name="Angel&apos;s Wrath^" id="b1c3-5494-add9-d9bf" hidden="false" page="97" publicationId="a716-c1c4-7b26-8424">
               <description>Effects
@@ -14894,7 +14902,6 @@ Limitations
                 <condition childId="d4f2-6da5-b6de-06ec" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
               </conditions>
             </modifier>
-            <modifier field="hidden" type="set" value="true"/>
           </modifiers>
           <rules>
             <rule name="Pride Of The Legion" id="3cb1-9be8-c256-7909" hidden="false" page="100" publicationId="a716-c1c4-7b26-8424">
@@ -14919,7 +14926,15 @@ Limitations
             <infoLink name="Subterranean Assault" id="ac52-9a84-3f78-930c" hidden="false" targetId="33d4-d46d-7f47-3ad2" type="rule"/>
           </infoLinks>
           <modifiers>
-            <modifier field="hidden" type="set" value="true"/>
+            <modifier field="hidden" type="set" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition childId="7b69-bf2f-4547-e83b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <rules>
             <rule name="Underworld Assault^" id="bc0e-857d-6ab6-7aa8" hidden="false" page="100" publicationId="a716-c1c4-7b26-8424">
@@ -14981,9 +14996,6 @@ Limitations
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
           </costs>
-          <modifiers>
-            <modifier field="hidden" type="set" value="true"/>
-          </modifiers>
           <rules>
             <rule name="Brethren Of Iron" id="bd2d-507a-719a-820f" hidden="false" page="102" publicationId="a716-c1c4-7b26-8424">
               <description>Effects
@@ -15010,11 +15022,6 @@ Limitations
             <modifier field="ef62-47b5-4c55-7c8b" type="set" value="0">
               <conditions>
                 <condition childId="d4f2-6da5-b6de-06ec" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="ancestor" shared="true" type="instanceOf" value="0"/>
-              </conditions>
-            </modifier>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="d684-5b63-caa7-adc4" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
               </conditions>
             </modifier>
           </modifiers>
