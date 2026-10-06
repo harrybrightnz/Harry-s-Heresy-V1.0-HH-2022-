@@ -5245,7 +5245,7 @@ If, for any reason, a given instance of this rule does not have a value in brack
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5260,7 +5260,7 @@ If, for any reason, a given instance of this rule does not have a value in brack
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5278,7 +5278,7 @@ If, for any reason, a given instance of this rule does not have a value in brack
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Twin-linked, Sunder</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7962,7 +7962,7 @@ Additionally, a machinator array incorporates a flamer and a meltagun. A model w
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, Twin-linked</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Twin-linked</characteristic>
           </characteristics>
         </profile>
       </profiles>

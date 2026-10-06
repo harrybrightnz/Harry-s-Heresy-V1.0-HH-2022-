@@ -5305,13 +5305,13 @@
             <modifier field="name" type="set" value="Duellist’s Edge (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Rending (X)" id="8e46-ce07-cd43-f701" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-          <modifiers>
-            <modifier field="name" type="set" value="Rending (4+)"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Specialist Weapon" id="83a1-32ee-6973-0390" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
         <infoLink name="Two Falax Blades" id="7079-2e57-3ad-6a17" hidden="false" targetId="a438-da9a-42cd-1d2d" type="profile"/>
+        <infoLink name="Breaching (X)" id="17a3-1b4f-c628-bbc1" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier field="name" type="set" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Meteor Hammer" id="1994-6eda-5e87-3038" collective="true" hidden="false" import="true" type="upgrade">
