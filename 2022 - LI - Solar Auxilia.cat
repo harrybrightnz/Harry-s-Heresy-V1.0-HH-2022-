@@ -9388,6 +9388,11 @@ Additionally, in the shooting phase a model with a Detcon unit may target one fr
             <infoLink name="Blast" id="412f-530c-71a9-2f1c" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
             <infoLink name="Pinning" id="b725-4e24-6cdd-0b7c" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
             <infoLink name="Twin-linked" id="46d4-5824-dbfb-070a" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+            <infoLink name="Rending (X)" id="f735-425e-603b-e355" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+              <modifiers>
+                <modifier field="name" type="set" value="Rending (6+)"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <profiles>
             <profile name="Twin-linked Battlecannon" id="c9d4-8ba7-9187-2338" hidden="false" page="29" publicationId="d0df-7166-5cd3-89fd" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -9395,7 +9400,7 @@ Additionally, in the shooting phase a model with a Detcon unit may target one fr
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Pinning, Twin-linked</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (5&quot;), Pinning, Rending (6+), Twin-linked</characteristic>
               </characteristics>
             </profile>
           </profiles>
