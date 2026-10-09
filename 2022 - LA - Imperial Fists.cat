@@ -61,17 +61,6 @@
         <categoryLink name="Unit:" id="5d82-2938-d6b0-d460" hidden="false" primary="false" targetId="36c3-e85e-97cc-c503"/>
         <categoryLink name="Fast Attack:" id="0a15-f02d-76e8-3f43" hidden="false" primary="true" targetId="20ef-cd01-a8da-376e"/>
       </categoryLinks>
-      <infoLinks>
-        <infoLink name="Heart of the Legion" id="a2d4-5d02-95b4-136b" hidden="false" targetId="c0dd-9002-2ebd-f96d" type="rule">
-          <modifiers>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="95a4-07ae-c2e4-fe33" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier field="name" type="append" value="(Reserve Only)">
           <conditions>
@@ -436,9 +425,6 @@
                 </condition>
                 <condition childId="dbde-0e4f-0b5a-43d2" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1">
                   <comment>node_id_bafe-f799-41d9-ac85</comment>
-                </condition>
-                <condition childId="95a4-07ae-c2e4-fe33" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1">
-                  <comment>node_id_f67d-8cf3-424f-b491</comment>
                 </condition>
               </conditions>
             </conditionGroup>
@@ -3714,19 +3700,7 @@
       <categoryLinks>
         <categoryLink name="Unit:" id="8a45-41a9-f691-a18c" hidden="false" primary="false" targetId="36c3-e85e-97cc-c503"/>
         <categoryLink name="Troops:" id="1a63-5cf5-060b-fefe" hidden="false" primary="true" targetId="9b5d-fac7-799b-d7e7"/>
-        <categoryLink name="Compulsory Troops:" id="2705-9abc-5949-8227" hidden="false" primary="false" targetId="8f42-a824-fb5f-8fea"/>
       </categoryLinks>
-      <infoLinks>
-        <infoLink name="Heart of the Legion" id="76f2-aebb-017f-3470" hidden="false" targetId="c0dd-9002-2ebd-f96d" type="rule">
-          <modifiers>
-            <modifier field="hidden" type="set" value="true">
-              <conditions>
-                <condition childId="95a4-07ae-c2e4-fe33" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <modifiers>
         <modifier field="name" type="append" value="(Reserve Only)">
           <conditions>
