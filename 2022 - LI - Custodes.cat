@@ -2887,6 +2887,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
             <modifier field="name" type="set" value="Torrent (9&quot;)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Aflame" id="25f6-4f99-d485-e798" hidden="false" targetId="8e89-5ddd-1b1c-f1f0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Infernus Firepike" id="8ee5-48ce-ca14-40e4" hidden="false" page="143" publicationId="15a4-fc68-502d-48a9" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -2894,7 +2895,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (9&quot;)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (9&quot;), Aflame</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2911,6 +2912,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
           </modifiers>
         </infoLink>
         <infoLink name="Template Weapons" id="aa8b-a237-3ed5-d358" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink name="Aflame" id="b5df-e47f-b2f7-52f2" hidden="false" targetId="8e89-5ddd-1b1c-f1f0" type="rule"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry name="Lastrum Storm Bolter" id="b3bf-5df7-9ac4-c0cf" collective="false" hidden="false" import="true" type="upgrade">
@@ -2946,6 +2948,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
       </costs>
       <infoLinks>
         <infoLink name="Template Weapons" id="5101-72fe-e619-e93c" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink name="Aflame" id="bba2-ada8-2c9c-e694" hidden="false" targetId="8e89-5ddd-1b1c-f1f0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Infernus Incinerator" id="2fcf-890f-bf8b-f06b" hidden="false" page="143" publicationId="15a4-fc68-502d-48a9" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -2953,7 +2956,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Aflame</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3118,6 +3121,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
       </costs>
       <infoLinks>
         <infoLink name="Template Weapons" id="beb1-68cc-6a2b-4273" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink name="Aflame" id="96e3-794a-327d-c557" hidden="false" targetId="8e89-5ddd-1b1c-f1f0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Twin-linked Infernus Incinerator" id="a13f-cb93-9253-2dfe" hidden="false" page="143" publicationId="15a4-fc68-502d-48a9" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -3125,7 +3129,7 @@ Lightning Blows (X) special rule, but do benefit from any other special rules po
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Twin-linked</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Twin-linked, Aflame</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3461,6 +3465,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
       <infoLinks>
         <infoLink name="Blast" id="37e2-fd26-20a5-74ff" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink name="Ignores Cover" id="8ea6-af4f-a2b0-b5e3" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink name="Aflame" id="3384-b74f-ccd8-5cbd" hidden="false" targetId="8e89-5ddd-1b1c-f1f0" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Infernus Firebomb Clusters" id="d8fb-c7ff-ae58-7d57" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -3468,7 +3473,7 @@ A model with the Infantry Unit Type that selects a Custodes Gyrfalcon jetbike as
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">Bomb</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Massive Blast (7&quot;), Ignores Cover</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Massive Blast (7&quot;), Ignores Cover, Aflame</characteristic>
           </characteristics>
         </profile>
       </profiles>
