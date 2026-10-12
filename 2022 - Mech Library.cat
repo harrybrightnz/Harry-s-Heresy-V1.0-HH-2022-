@@ -6429,7 +6429,7 @@ Invulnerable Saves granted by a Mechanicum Protectiva do not stack with other In
                 <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Cybertheurgist with this Cybertheurgic Rite may select a single friendly unit with a model within 12&quot; which contains at least one model with the Automata Unit Type and apply one of the following effects to all models with the Automata Unit Type in the unit:
 • When making a Charge roll for the unit in the same turn as this Rite is used, roll an additional dice and discard the lowest rolled dice before determining the results of the Charge roll.
 • The unit (not each individual model) ignores the first Wound inflicted upon it in each Shooting Attack that targets it until the beginning of the controlling player’s next player turn. Simply discard that Wound without allocating it to a model.
-• The unit adds +1 to its BS or BS for the remainder of the turn in which this power is used.
+• The unit adds +1 to its BS or WS for the remainder of the turn in which this power is used.
 • Until the start of the controlling player’s next turn as the Active player, the unit may ignore the restriction against making Reactions imposed by the Automata Unit Type.
 The Cybertheurgist’s controlling player may choose to make a Cybertheurgy check before using this power, if the Check is successful then two different options may be applied to the target unit instead of one. If the Check is failed then no options may be chosen and the Cybertheurgist suffers Cybertheurgic Feedback.</characteristic>
               </characteristics>
