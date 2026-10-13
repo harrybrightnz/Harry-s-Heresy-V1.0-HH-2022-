@@ -245,7 +245,7 @@
     <entryLink name="IM - Rapier Battery" id="b698-2fac-d94d-bf40" collective="false" hidden="false" import="false" targetId="fbb6-c597-3edb-1506" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Unit:" id="e42c-6550-8a80-dc03" hidden="false" primary="false" targetId="36c3-e85e-97cc-c503"/>
-        <categoryLink name="Heavy Support:" id="a6f3-de9f-f708-8eb8" hidden="false" primary="true" targetId="7031-469a-1aeb-eab0"/>
+        <categoryLink name="Elites:" id="7dee-2c01-3fac-759d" hidden="false" primary="true" targetId="7aee-565f-b0ae-294e"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="IM - Leman Russ" id="3acf-9101-eb88-9fb1" collective="false" hidden="false" import="false" targetId="4f35-c44e-4456-31f4" type="selectionEntry">

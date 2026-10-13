@@ -2406,6 +2406,11 @@ During a Reaction made in any Phase, a player may not choose to activate a model
           </modifiers>
         </infoLink>
         <infoLink name="Unwieldy" id="9fe6-a3ce-3122-885f" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink name="Breaching (X)" id="0d10-8b54-69fd-38c8" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier field="name" type="set" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <profiles>
         <profile name="Excoriator Chainaxe" id="fe3d-5624-1c0d-1908" hidden="false" page="219" publicationId="09c5-eeae-f398-b653" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -2424,14 +2429,14 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       </costs>
       <infoLinks>
         <infoLink name="Specialist Weapon" id="757e-b301-f965-1db0" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
-        <infoLink name="Rending (X)" id="caeb-bf11-c0eb-8bc2" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
-          <modifiers>
-            <modifier field="name" type="set" value="Rending (4+)"/>
-          </modifiers>
-        </infoLink>
         <infoLink name="Duellist’s Edge (X)" id="d409-8bbc-ddeb-7178" hidden="false" targetId="7bf3-86ce-04c2-e6ba" type="rule">
           <modifiers>
             <modifier field="name" type="set" value="Duellist’s Edge (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breaching (X)" id="baa7-ff24-0159-d98f" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier field="name" type="set" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
