@@ -657,8 +657,8 @@
     </entryLink>
     <entryLink name="IM - Trojan Support Vehicle" id="5c53-df21-5218-e0a0" hidden="false" import="true" targetId="2e65-d2b3-2fa1-926a" type="selectionEntry">
       <categoryLinks>
-        <categoryLink name="Heavy Support:" id="ef43-c9ee-24ee-bb75" hidden="false" primary="true" targetId="7031-469a-1aeb-eab0"/>
         <categoryLink name="Unit:" id="83b2-eb5e-6858-f659" hidden="false" primary="false" targetId="36c3-e85e-97cc-c503"/>
+        <categoryLink name="Elites:" id="b7bb-e0b6-4f92-b31c" hidden="false" primary="true" targetId="7aee-565f-b0ae-294e"/>
       </categoryLinks>
     </entryLink>
     <entryLink name="IM - Destroyer Tank Hunter" id="3872-e5c5-96d0-1073" hidden="false" import="true" targetId="cb0b-498a-7e82-8e8d" type="selectionEntry">
