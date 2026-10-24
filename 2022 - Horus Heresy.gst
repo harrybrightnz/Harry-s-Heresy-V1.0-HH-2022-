@@ -15755,6 +15755,7 @@ Limitations
                   <conditions>
                     <condition childId="3edc-a1b9-6dc6-b1ea" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
                     <condition childId="c0df-c1fa-5ddc-9ee5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                    <condition childId="268b-74a8-395f-6f27" childName="III: Emperor&apos;s Children (Legion Hereticus)" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15784,7 +15785,7 @@ Limitations
                   <conditions>
                     <condition childId="3edc-a1b9-6dc6-b1ea" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
                     <condition childId="c0df-c1fa-5ddc-9ee5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
-                    <condition childId="d684-5b63-caa7-adc4" field="selections" includeChildSelections="true" scope="force" shared="true" type="atLeast" value="1"/>
+                    <condition childId="268b-74a8-395f-6f27" childName="III: Emperor&apos;s Children (Legion Hereticus)" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
