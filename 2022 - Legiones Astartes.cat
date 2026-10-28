@@ -26910,7 +26910,7 @@ If one or more Wounds is discounted due to this special rule, and the unit that 
             </entryLink>
             <entryLink name="Scimitar Jetbike" id="1159-fb36-c94a-4ba1" collective="false" hidden="false" import="true" targetId="6fb4-adf6-dbe8-86af" type="selectionEntry">
               <modifiers>
-                <modifier field="d2ee-04cb-5f8a-2642" type="increment" value="30">
+                <modifier field="d2ee-04cb-5f8a-2642" type="increment" value="20">
                   <repeats>
                     <repeat childId="model" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" repeats="1" roundUp="false" scope="0aca-632d-1642-8af9" shared="true" value="1"/>
                   </repeats>
