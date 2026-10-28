@@ -11359,7 +11359,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink name="Gravis Melta Cannon" id="0b38-1fde-4d2a-0f26" collective="false" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Gravis Autocannon" id="3e62-a69c-f114-7e8a" collective="false" hidden="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -11379,12 +11379,12 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink name="Volkite Dual-Culverin" id="42f8-3552-ee75-32ea" collective="false" hidden="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Kheres Assault Cannon" id="4a0d-5c7f-74ad-bcf0" collective="false" hidden="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Gravis Lascannon" id="c0ea-6da3-9def-1e46" collective="false" hidden="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -11438,7 +11438,7 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
               <entryLinks>
                 <entryLink name="Gravis Melta Cannon" id="dc68-ae96-88ad-3b22" collective="false" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Gravis Autocannon" id="ab00-7750-578b-3141" collective="false" hidden="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -11458,12 +11458,12 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </entryLink>
                 <entryLink name="Volkite Dual-Culverin" id="8dbb-cc2f-3b51-572f" collective="false" hidden="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Kheres Assault Cannon" id="8616-94be-8027-2ccf" collective="false" hidden="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Gravis Lascannon" id="2b44-5245-ee32-ee5b" collective="false" hidden="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -40517,22 +40517,26 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="1) Hull (Front) Weapon Options" id="20f6-bd5e-3d77-a85d" collective="false" defaultSelectionEntryId="03f4-8f3d-2f78-5f41" hidden="false" import="true">
+        <selectionEntryGroup name="1) Hull (Front) Weapon Options" id="20f6-bd5e-3d77-a85d" collective="false" defaultSelectionEntryId="b808-639b-af47-671d" hidden="false" import="true">
           <constraints>
             <constraint id="806d-ca03-2780-c90f" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
             <constraint id="15f6-12d5-479f-80f2" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Twin-linked Heavy Bolter" id="03f4-8f3d-2f78-5f41" collective="false" hidden="false" import="true" targetId="d03c-9f7e-84fa-d6e8" type="selectionEntry"/>
-            <entryLink name="Missile Launcher w/Frag &amp; Krak Missiles" id="11e8-9c4e-3d79-6d4d" collective="false" hidden="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+            <entryLink name="Gravis Melta Cannon" id="278a-08e4-f77f-6f84" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+              </costs>
+            </entryLink>
+            <entryLink name="Cyclone Missile Launcher" id="3fd1-2306-c51f-2b8a" hidden="false" import="true" targetId="3e5a-ad5d-4607-7489" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <entryLinks>
-                <entryLink name="Stasis Missiles" id="7caa-eb81-9c53-43f8" collective="false" hidden="true" import="true" targetId="fae4-6429-a591-d82f" type="selectionEntry">
+                <entryLink name="Stasis Missiles" id="f4ba-6a6c-98b5-86db" collective="false" hidden="true" import="true" targetId="fae4-6429-a591-d82f" type="selectionEntry">
                   <constraints>
-                    <constraint id="1d8e-7249-dcbd-c2f7" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
-                    <constraint id="d266-571b-580e-437a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
+                    <constraint id="42e0-9d32-5e8d-088d" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+                    <constraint id="2725-39a2-506a-6a2c" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="0"/>
                   </constraints>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -40547,11 +40551,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 </entryLink>
               </entryLinks>
             </entryLink>
-            <entryLink name="Gravis Melta Cannon" id="278a-08e4-f77f-6f84" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-              </costs>
-            </entryLink>
+            <entryLink name="Gravis Bolt Cannon" id="b808-639b-af47-671d" hidden="false" import="true" targetId="3b5f-52ab-6534-94a3" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup name="2) Wing Weapon Options" id="5cc4-976e-f5c1-49d9" collective="false" defaultSelectionEntryId="96da-5850-ce9e-180d" hidden="false" import="true">
@@ -61253,7 +61253,7 @@ Pinning, One Use</characteristic>
             </entryLink>
             <entryLink name="Gravis Melta Cannon" id="1d9b-5cf4-1715-c13f" collective="false" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
             <entryLink name="Gravis Autocannon" id="cd1f-192d-e906-df0e" collective="false" hidden="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -61271,14 +61271,10 @@ Pinning, One Use</characteristic>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
-            <entryLink name="Volkite Dual-Culverin" id="7bfc-23ad-83bb-1148" collective="false" hidden="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-              </costs>
-            </entryLink>
+            <entryLink name="Volkite Dual-Culverin" id="7bfc-23ad-83bb-1148" collective="false" hidden="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry"/>
             <entryLink name="Kheres Assault Cannon" id="8a11-a867-cec8-f64c" collective="false" hidden="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink name="Gravis Lascannon" id="8a5a-0d3b-378e-1acd" collective="false" hidden="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -61332,7 +61328,7 @@ Pinning, One Use</characteristic>
           <entryLinks>
             <entryLink name="Gravis Melta Cannon" id="fa9e-9a65-23dc-3539" collective="false" hidden="false" import="true" targetId="ef6c-f656-171a-03e1" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
               </costs>
             </entryLink>
             <entryLink name="Gravis Autocannon" id="b5c5-438a-b7d3-ddd2" collective="false" hidden="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -61352,12 +61348,12 @@ Pinning, One Use</characteristic>
             </entryLink>
             <entryLink name="Volkite Dual-Culverin" id="73ea-5641-6b85-a7dd" collective="false" hidden="false" import="true" targetId="fead-f3b9-f7c7-1081" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
               </costs>
             </entryLink>
             <entryLink name="Kheres Assault Cannon" id="9e66-75e2-37c5-856e" collective="false" hidden="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink name="Gravis Lascannon" id="bc1f-3d4d-4eb3-bbea" collective="false" hidden="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
@@ -71938,7 +71934,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 </entryLink>
                 <entryLink name="Inversion Beamer" id="8e81-c4f3-b8dc-4e3a" hidden="false" import="true" targetId="5820-397d-8b08-f20a" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
                 <entryLink name="Graviton Pulveriser" id="bdc8-c3d2-d7e7-9cee" hidden="false" import="true" targetId="0b3b-5686-2c46-9b3c" type="selectionEntry">
@@ -71967,7 +71963,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 </entryLink>
                 <entryLink name="Inversion Beamer" id="4f9b-db0a-71eb-ce53" hidden="false" import="true" targetId="5820-397d-8b08-f20a" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
                   </costs>
                 </entryLink>
               </entryLinks>

@@ -699,6 +699,19 @@
         </modifier>
       </modifiers>
     </entryLink>
+    <entryLink name="Ordinatus Saggitar" id="1fa8-456a-7b62-11a6" hidden="false" import="true" targetId="b1a5-118b-f871-9284" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink name="Unit:" id="82f6-7a1e-c633-7747" hidden="false" primary="false" targetId="36c3-e85e-97cc-c503"/>
+        <categoryLink name="Lords of War:" id="0a79-6083-9b67-5069" hidden="false" primary="true" targetId="c658-dc6b-727b-c488"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="true">
+          <conditions>
+            <condition childId="7b69-bf2f-4547-e83b" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="atLeast" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry name="Archmagos Prime" id="d0f2-ee39-450c-39db" collective="false" hidden="false" import="true" page="20" publicationId="bde1-6db1-163b-3b76" type="unit">
@@ -7210,6 +7223,126 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry name="Ordinatus Saggitar" id="b1a5-118b-f871-9284" collective="false" hidden="false" import="true" page="" type="unit">
+      <categoryLinks>
+        <categoryLink name="Vehicle Unit:" id="9a1b-eb52-e050-982e" hidden="false" primary="false" targetId="23eb-0b9e-0857-e965"/>
+        <categoryLink name="Vehicle:" id="241d-5256-c3d6-0b2d" hidden="false" primary="false" targetId="e2b6-b770-784c-9e95"/>
+        <categoryLink name="LoW &amp; Primarchs (25% Limit)" id="41ae-297b-aed5-960e" hidden="false" primary="false" targetId="2eaf-32d6-9d1d-d906"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
+      </costs>
+      <entryLinks>
+        <entryLink name="Volkite Culverin" id="f055-d045-634f-f3f7" collective="false" hidden="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry">
+          <constraints>
+            <constraint id="591b-71d8-5633-4624" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="1"/>
+            <constraint id="e12a-b72a-6bab-948a" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="1"/>
+          </constraints>
+          <modifiers>
+            <modifier field="name" type="set" value="One Hull (Rear) Mounted Volkite Culverin"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Volkite Culverin" id="4726-b8c3-7879-7a3a" collective="false" hidden="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry">
+          <constraints>
+            <constraint id="814e-3f76-67e4-c5ce" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="max" value="2"/>
+            <constraint id="fc7d-5ce4-c42f-9cb3" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="false" type="min" value="2"/>
+          </constraints>
+          <modifiers>
+            <modifier field="name" type="set" value="Two Sponson Mounted Volkite Culverins"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="It Will Not Die (X)" id="0dcb-2751-e6a0-a53f" hidden="false" targetId="2784-d0be-a4e2-890f" type="rule">
+          <modifiers>
+            <modifier field="name" type="set" value="It Will Not Die (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Reactor Meltdown (X)" id="1041-e633-fc9f-e6ec" hidden="false" targetId="3b0e-4a45-9bdd-91dc" type="rule">
+          <modifiers>
+            <modifier field="name" type="set" value="Reactor Meltdown (Major)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Reinforced Structure" id="f34a-5cd4-d937-8b24" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Ordinatus Saggitar" id="f01f-1945-37a0-1565" hidden="false" page="56" publicationId="bde1-6db1-163b-3b76" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Super-heavy)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">13</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">13</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">14</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547"/>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry name="Ordinatus Dispersion Shield" id="74c7-1714-26fb-58d7" collective="false" hidden="false" import="true" page="126" publicationId="bde1-6db1-163b-3b76" type="upgrade">
+          <constraints>
+            <constraint id="5d9d-021f-1ec1-1899" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="ebed-248f-8bb9-64ae" field="selections" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Ordinatus Dispersion Shield" id="8386-6cfe-a321-e341" hidden="false" page="126" publicationId="bde1-6db1-163b-3b76" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Hull (Front) Mounted Weapon" id="65ad-5571-2fa7-1fd9" defaultSelectionEntryId="df32-da7e-d983-d1e0" hidden="false">
+          <constraints>
+            <constraint id="11ac-22a1-d3a9-ce2a" field="selections" scope="parent" shared="true" type="min" value="1"/>
+            <constraint id="d7ef-3569-cd79-75d4" field="selections" scope="parent" shared="true" type="max" value="1"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Apocalypse Missile Launcher" id="df32-da7e-d983-d1e0" hidden="false" import="true" targetId="e127-4c28-1a5b-e372" type="selectionEntry">
+              <modifiers>
+                <modifier field="name" type="set" value="Two Hull (Front) Mounted Apocalypse Missile Launchers"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Belicosa Volcano Cannon" id="a183-b99e-c764-e00f" hidden="false" import="true" targetId="454e-eb44-05fc-0471" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+              </costs>
+              <modifiers>
+                <modifier field="name" type="set" value="One Hull (Front) Mounted Belicosa Volcano Cannon"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Macro-Gatling Blaster" id="f431-a353-cf88-ca05" hidden="false" import="true" targetId="2c0d-36ba-7cfa-6915" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+              </costs>
+              <modifiers>
+                <modifier field="name" type="set" value="One Hull (Front) Mounted Macro Gatling Blaster"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Mori Quake Cannon" id="0303-020d-f2a8-f841" hidden="false" import="true" targetId="eab1-7776-c8da-da00" type="selectionEntry">
+              <modifiers>
+                <modifier field="name" type="set" value="One Hull (Front) Mounted Mori Quake Cannon"/>
+              </modifiers>
+            </entryLink>
+            <entryLink name="Sunfury Plasma Annihilator" id="a8b1-f772-afac-e6dd" hidden="false" import="true" targetId="f4dc-88a0-0ad9-4c61" type="selectionEntry">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+              </costs>
+              <modifiers>
+                <modifier field="name" type="set" value="One Hull (Front) Mounted Sunfury Plasma Annihilator"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

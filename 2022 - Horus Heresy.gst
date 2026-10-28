@@ -12457,6 +12457,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
           </modifiers>
         </infoLink>
         <infoLink name="Bombard" id="8d90-3c15-b5bd-7554" hidden="false" targetId="8bad-2014-0c0b-6f61" type="rule"/>
+        <infoLink name="Gets Hot" id="7c47-61ba-cb50-e33b" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Heavy Plasma Bombard" id="fec4-c270-e793-fef4" hidden="false" page="134" publicationId="a716-c1c4-7b26-8424" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -12464,7 +12465,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (5&quot;), Breaching (4+), Bombard</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (5&quot;), Breaching (4+), Bombard, Gets Hot</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12484,7 +12485,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Gets Hot, Armourbane</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Instant Death, Gets Hot, Armourbane</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -15447,6 +15448,7 @@ Rite of War may be given the Deep Strike special rule for +30 points per unit.
                   <conditions>
                     <condition childId="a0e1-f2c4-8bcd-0723" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="0"/>
                     <condition childId="c0df-c1fa-5ddc-9ee5" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
+                    <condition childId="f9c0-0c5a-3e24-58c7" childName="Traitor" field="selections" includeChildForces="false" includeChildSelections="true" percentValue="false" scope="force" shared="true" type="equalTo" value="1"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
